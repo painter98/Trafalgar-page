@@ -1,0 +1,270 @@
+*{
+    margin:0px;
+}
+.logo{
+    padding:5px 7px;
+    background-color: #458FF6;
+    border-radius: 50%;
+}
+.heading{
+    display:flex;
+    justify-content: space-between;
+    padding:50px 100px;
+}
+.second{
+    display: flex;
+    gap:20px;
+}
+.mainheader{
+    display: flex;
+    padding:0px 6vw;
+    gap:8vw;
+}
+.contains,.service,.item,.provide,.provider,.download,.end,.content > span{
+    display:flex;
+}
+.hfirst{
+    padding-top:100px;
+}
+.hfirst > p{
+    font-weight: 300px;
+    font-size: 21px;
+    padding:50px 0px;
+}
+.hfirst > span{
+    font-size: 48px;
+    font-weight: 700px;
+}
+button{
+    background: #458FF6;
+    padding:10px 25px;
+    border-radius:25rem;
+    border:none;
+    color:#fff;
+}
+.service button,.provide button,.detail button,main button{
+    background-color: white;
+    border:1px solid #458FF6;
+    color:#458FF6;
+}
+.back{
+    position: absolute;
+    z-index:-1;
+    left:0px;
+    right:0px;
+    display: flex;
+    gap:30vw;
+    align-items:center;
+    padding-top:16vw;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width:70vw;
+    height:90vh;
+    gap:2vw;
+    align-items:space-around;
+}
+.line{
+    background-color: black;
+    height:2px;
+    width:50px;
+}
+.service{
+    flex-flow: column wrap;
+    align-items: center;
+    padding:4vw;
+    gap:5vh;
+}
+.service > h2,.provider > h2,.detail > h2,.head > h2{
+    font-size:36px;
+}
+.item{
+    background-color: #fff;
+    padding:3vw;
+    align-items: start;
+    flex-flow: column wrap;
+    gap:3vh;
+    border-radius:10%;
+   box-shadow:#E5E5E5 20px 20px 100px;
+}
+.item > p{
+    color:#7D7987; 
+}
+.service > p{
+    width:50vw;
+    text-align: center;
+    color:#7D7987;
+}
+
+.provide,.download{
+    justify-content: space-around;
+    gap:5vw;
+    padding:5vw 10vw 0vw 10vw;
+}
+.provider > p,.detail > p{
+    width:22vw;
+    color:#7D7987;
+}
+footer{
+    display:grid;
+    grid-template-columns: 0.3fr 0.7fr;
+    gap:1vw;
+    padding: 15vh 9vw;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color:#fff;
+}
+.end{
+    justify-content: space-around;
+}
+.items > div,.start > p{
+    padding:1vh 0px;
+}
+footer h4{
+    padding:2vh 0px;
+}
+.image1{
+    position: relative;
+    left:93vw;
+}
+.carousel,.detail,.provider,.fc,.head,.cards,.content{
+    display: flex;
+    flex-flow:column wrap;
+    place-items: center;
+}
+.provider,.detail{
+    align-items: start;
+    gap:3vh;
+}
+.carousel{
+    position:relative;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    padding:10vh 10vh;
+    width:50vw;
+    gap:4vh;
+    border-radius: 2vw;
+    color:rgba(255, 255, 255, 0.9);
+}
+.sc{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.87fr;
+    place-items: center;
+}
+.sc > div{
+    width:10vw;
+}
+.sc img{
+    border-radius: 50%;
+    border:2px solid white;
+}
+.container{
+    padding:20vh 20vw;
+    position:relative;
+}
+.image2{
+    z-index:2;
+    position: absolute;
+    left:54vw;
+    top:10px;
+}
+.image3{
+    z-index:-1;
+    position: absolute;
+    left:16vw;
+    top:50vh;
+}
+.image4{
+    padding:5vh 19vw;
+}
+.card{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    width:20vh;
+    gap:4vw;
+    padding:10vh 15vw;
+}
+.head{
+    gap:2vh;
+}
+.cards > img{
+   width:20vw;
+   border-radius:5% 5% 0% 0%;
+}
+.cards{
+   place-items: start;
+   gap:1vh;
+   width:20vw;
+   border-radius:5%;
+   background-color: #fff;
+   box-shadow:#E5E5E5 20px 20px 100px;
+}
+.content{
+    padding:2.5vw;
+    gap:2vh;
+    place-items: start;
+}
+.content span{
+    align-items: center;
+    color:#458FF6;
+}
+main > button{
+    position:relative;
+    left:45vw;
+}
+.back2{
+    display: flex;
+    place-items: start;
+    position:absolute;
+    z-index:-1;
+    left:10vw;
+    top:530vh;
+    gap:48vw;
+}
+.image5{
+    position:absolute;
+    top:672.5vh;
+    left:0px;
+}
+.image6{
+    position:absolute;
+    right:0px;
+    top:312vw;
+    z-index:-1;
+}
+main{
+    padding-bottom:10vw;
+}
+@media (max-width:400px){
+    *{
+        padding:auto 0px;
+    }
+    img{
+        width:40vw;
+        height:40vw;
+    }
+    *{
+        flex-flow:column wrap;
+    }
+}
+@media (max-width:900px){
+    .hsecond > img,.provide > img,.download > img{
+        width:40vw;
+        height:40vw;
+    }
+    .back,.back2{
+        gap:0px;
+        width:50vw;
+    }
+    .back2{
+        top:400vh;
+    }
+    .sc > p{
+        display:none;
+    }
+    .sc{
+        gap:10vw;
+    }
+    .container{
+        padding-left:10vw;
+    }
+}
